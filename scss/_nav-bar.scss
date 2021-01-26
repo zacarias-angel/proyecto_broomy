@@ -1,0 +1,32 @@
+.header__nav__fondo{
+	background-image: url(../imagenes/fondo.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: flex;
+}
+
+.header__cajalogo {
+	.header__nav__logo{
+	width: 45%;
+	margin:10px;
+	border:solid 1px;
+	border-radius: 20%;
+	margin-top: 5px;} 
+
+}
+
+.nav{ 
+     ul {
+         li {
+          a{text-decoration: none;
+	         color: white;}
+	         }
+	}
+}
+.nav ul li a:hover{
+	border-bottom: solid 4px;
+}
+.activar{
+	 border-bottom: solid 4px;
+
+}

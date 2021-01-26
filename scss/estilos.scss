@@ -1,0 +1,220 @@
+
+* {
+  font-family: opene sean;
+  margin: 0;
+  padding: 0; }
+
+		
+@import"contenedor-grid";
+
+/*.........................................................................................................nav-bar*/
+
+@import"nav-bar";
+/*........................................................................................................main*/
+@for $var from 1 through 4{
+	 .ani#{$var} img  {
+		border-radius: 5px;
+			width: 400px;
+			height: 147px;
+			overflow: hidden;
+			margin: 15px;
+			box-shadow: 0 15px 25px;
+	}
+
+}
+
+@mixin imagen_main ($width , $height){
+	width:$width;
+	height: $height;
+}
+
+
+.contenedor-main{
+	div{
+		h2{
+			display:flex;
+	flex-direction:row;
+	width: 100%;
+	flex-wrap:wrap;
+		}
+	}
+}
+.main_fila{
+	display: flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	align-items: center;
+    @extend .ani1;
+    p{
+    	font-size: 24px;
+    }
+
+}
+
+.main__fila__2{
+	display: flex;
+	flex-direction:row-reverse;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	align-items: center;
+@extend .ani2;
+
+p{
+	font-size:24px;
+}
+}
+.main__fila__3 {
+ @extend .main_fila;
+	@extend .ani3;
+	
+	p{
+		font-size: 24px;
+	}
+}
+
+.main__fila__4{
+				@extend .main__fila__2;
+	@extend .ani4;
+	p{
+		font-size:24px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.main__fila__3{
+	.ani3{
+		img{
+			width: 100%;
+		}
+	}
+	p{
+	width:100%;
+	text-align: center;
+	margin-left: 20px; 
+    }
+}
+.main__fila__4{
+	.ani4{
+		img{
+			width: 100%;
+		}
+	}
+	p{
+		width:100%;
+	}
+}
+
+
+.main_fila{
+	.ani1{
+		img{
+			width: 100%;
+		}
+	}
+	p{
+		width:100%;
+		text-align: center;
+		margin-left: 20px;
+	}
+}
+.main__fila__2{
+	.ani2{
+		img{
+			width: 100%;
+		}
+	}
+	p{
+		width:100%;
+	}
+}
+}
+
+	
+
+/*........................................................................................................article-index*/
+@import"article";
+
+/* ...................................................................................................... footer*/
+  @import"footer";
+
+
+  /*--------------------------------------------------------------------------------------------------pagina contactos*/
+.flex{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+	width: 100%;
+}
+.alinacion{
+	width: 100%;
+	height: 150px;
+	margin: 10px
+}
+.ingreso-clientes{
+	text-align: center;
+	font-size: 24px;
+
+}
+
+/* --------------------------------------------------------------------------------------------------------catalago */
+
+.contenido img {
+	width: 200px;
+	height: 200px;
+	justify-content:center;
+}
+
+
+.contenido div img:hover{
+	height: 250px;
+	width: 250px;
+	border-bottom: solid 3px;
+	transition: 1s;
+}
+ .secadores{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+
+}
+.escobas{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+
+}
+
+.contenido > .trapos-rejillas{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+
+}
+.otros{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+
+}
+@media screen and(max-width: 768px){
+	.contenido{
+		img{
+			width: 100%;
+		}
+	}
+}
+	
+
+
+
+
+
+
+
