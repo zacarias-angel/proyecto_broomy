@@ -10,6 +10,18 @@
 /*.........................................................................................................nav-bar*/
 
 @import"nav-bar";
+.home_a{
+	width: 100%;
+	border-radius: 10px;
+	display: flex;
+	margin: 5px;
+	align-items: center;
+
+	.color_ico{
+		color:white;
+	}
+
+}
 /*........................................................................................................main*/
 @for $var from 1 through 4{
 	 .ani#{$var} img  {
@@ -164,7 +176,6 @@ p{
 .contenido img {
 	width: 200px;
 	height: 200px;
-	justify-content:center;
 }
 
 
@@ -203,15 +214,13 @@ p{
 	justify-content: space-around;
 
 }
-@media screen and(max-width: 768px){
-	.contenido{
-		img{
-			width: 100%;
-		}
-	}
+@media screen and (max-width: 768px){
+	.contenido div img:hover{
+	height: 250px;
+	width: 100%;
+	border-bottom: solid 3px;
+	transition: 1s;}
 }
-	
-
 
 
 
