@@ -10,17 +10,19 @@
 /*.........................................................................................................nav-bar*/
 
 @import"nav-bar";
-.home_a{
+.nav_a{
 	width: 100%;
-	border-radius: 10px;
 	display: flex;
-	margin: 5px;
 	align-items: center;
 
 	.color_ico{
 		color:white;
+		margin: 5px;
 	}
-
+}
+.nav_botton_movil{
+	width: 100%;
+	padding: 10px;
 }
 /*........................................................................................................main*/
 @for $var from 1 through 4{
@@ -48,6 +50,7 @@
 	flex-direction:row;
 	width: 100%;
 	flex-wrap:wrap;
+	justify-content:center;
 		}
 	}
 }
@@ -86,7 +89,7 @@ p{
 }
 
 .main__fila__4{
-				@extend .main__fila__2;
+	@extend .main__fila__2;
 	@extend .ani4;
 	p{
 		font-size:24px;

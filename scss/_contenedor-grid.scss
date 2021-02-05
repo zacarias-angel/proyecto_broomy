@@ -12,9 +12,9 @@
 
   .contenedor-grid{
   header {
-  display: felx;
+  display: flex;
   grid-area:header;
-  padding: 10px;
+  width:100%;
   }
   aside{
   grid-area:aside;

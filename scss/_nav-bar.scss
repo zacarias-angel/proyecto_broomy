@@ -1,19 +1,21 @@
-.header__nav__fondo{
-	background-image: url(../imagenes/fondo.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: flex;
+.header__nav__fondo {
+  display: flex;
+  justify-content:space-around;
+  width: 100%;
+  background-image: url(../imagenes/fondo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: flex; }
+
+.header__cajalogo{
+  display: flex;
 }
 
-.header__cajalogo {
-	.header__nav__logo{
-	width: 45%;
-	margin:10px;
-	border:solid 1px;
-	border-radius: 20%;
-	margin-top: 5px;} 
-
-}
+ .header__nav__logo {
+  width: 45%;
+  margin: 25px;
+  border: solid 1px;
+  border-radius: 20%; }
 
 .nav{ 
      ul {
@@ -29,4 +31,7 @@
 .activar{
 	 border-bottom: solid 4px;
 
+}
+.navbar-collapse{
+	justify-content:flex-end;
 }
