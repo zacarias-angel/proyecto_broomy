@@ -11,13 +11,12 @@
 
 @import"nav-bar";
 .nav_a{
-	width: 100%;
-	display: flex;
-	align-items: center;
+	display: inline-block;
 
 	.color_ico{
 		color:white;
 		margin: 5px;
+		display:inline-block;
 	}
 }
 .nav_botton_movil{
@@ -60,6 +59,8 @@
 	flex-wrap:wrap;
 	justify-content:space-between;
 	align-items: center;
+	border-right: solid 3px;
+	border-bottom: solid 3px;
     @extend .ani1;
     p{
     	font-size: 24px;
@@ -73,6 +74,9 @@
 	flex-wrap:wrap;
 	justify-content:space-between;
 	align-items: center;
+	border-left:solid 3px;
+	border-bottom:solid 3px;
+
 @extend .ani2;
 
 p{
@@ -171,7 +175,6 @@ p{
 .ingreso-clientes{
 	text-align: center;
 	font-size: 24px;
-
 }
 
 /* --------------------------------------------------------------------------------------------------------catalago */
@@ -186,47 +189,21 @@ p{
 	height: 250px;
 	width: 250px;
 	border-bottom: solid 3px;
-	transition: 1s;
-}
- .secadores{
+	transition: 1s;}
+	.escobas .trapos-rejillas .otros .secadores{
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-around;
-
-}
-.escobas{
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-around;
-
 }
 
-.contenido > .trapos-rejillas{
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-around;
-
+.card{
+	margin:10px;
 }
-.otros{
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-around;
 
-}
 @media screen and (max-width: 768px){
-	.contenido div img:hover{
+.contenido div img:hover{
 	height: 250px;
 	width: 100%;
 	border-bottom: solid 3px;
-	transition: 1s;}
-}
-
-
-
-
-
-
+	transition: 1s;}}
