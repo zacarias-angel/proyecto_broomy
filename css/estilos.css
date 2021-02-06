@@ -69,12 +69,11 @@
   justify-content: flex-end; }
 
 .nav_a {
-  width: 100%;
-  display: flex;
-  align-items: center; }
+  display: inline-block; }
   .nav_a .color_ico {
     color: white;
-    margin: 5px; }
+    margin: 5px;
+    display: inline-block; }
 
 .nav_botton_movil {
   width: 100%;
@@ -125,7 +124,9 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-items: center; }
+  align-items: center;
+  border-right: solid 3px;
+  border-bottom: solid 3px; }
   .main_fila p, .main__fila__3 p {
     font-size: 24px; }
 
@@ -134,7 +135,9 @@
   flex-direction: row-reverse;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-items: center; }
+  align-items: center;
+  border-left: solid 3px;
+  border-bottom: solid 3px; }
   .main__fila__2 p, .main__fila__4 p {
     font-size: 24px; }
 
@@ -264,29 +267,14 @@
   border-bottom: solid 3px;
   transition: 1s; }
 
-.secadores {
+.escobas .trapos-rejillas .otros .secadores {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around; }
 
-.escobas {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around; }
-
-.contenido > .trapos-rejillas {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around; }
-
-.otros {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around; }
+.card {
+  margin: 10px; }
 
 @media screen and (max-width: 768px) {
   .contenido div img:hover {
