@@ -8,7 +8,10 @@
   grid-template-rows: auto auto 1fr auto;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-gap: 15px;
-  grid-template-areas: "header header header header header header header header header header header header" ". . aside aside aside aside aside aside aside aside . ." "main main main main main main main main article article article article" "footer footer footer footer footer footer footer footer footer footer footer footer"; }
+  grid-template-areas: "header header header header header header header header header header header header"
+ ". . aside aside aside aside aside aside aside aside . ."
+ "main main main main main main main main article article article article"
+ "footer footer footer footer footer footer footer footer footer footer footer footer"; }
 
 .contenedor-grid header {
   display: flex;
@@ -32,7 +35,11 @@
 
 @media screen and (max-width: 768px) {
   .contenedor-grid {
-    grid-template-areas: "header header header header header header header header header header header header" "aside aside aside aside aside aside aside aside aside aside aside aside" "main main main main main main main main main main main mian" "article article article article article article article article article article article article" "footer footer footer footer footer footer footer footer footer footer footer footer"; }
+    grid-template-areas: "header header header header header header header header header header header header"
+ "aside aside aside aside aside aside aside aside aside aside aside aside"
+ "main main main main main main main main main main main mian"
+ "article article article article article article article article article article article article"
+ "footer footer footer footer footer footer footer footer footer footer footer footer"; }
   footer {
     height: 140px; } }
 
@@ -76,8 +83,7 @@
     display: inline-block; }
 
 .nav_botton_movil {
-  width: 100%;
-  padding: 10px; }
+  padding: 25px; }
 
 /*........................................................................................................main*/
 .ani1 img, .main_fila img, .main__fila__3 img {
@@ -118,6 +124,9 @@
   width: 100%;
   flex-wrap: wrap;
   justify-content: center; }
+
+.contenedor-main .titulo_main-h1 {
+  text-align: center; }
 
 .main_fila, .main__fila__3 {
   display: flex;
