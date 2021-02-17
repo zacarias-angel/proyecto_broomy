@@ -3,7 +3,7 @@
 	background-size: cover;
 	justify-content: space-between;
 	align-items: center;
-}
+
 .logo__footer{  
  img {
 	height:70px;
@@ -15,41 +15,23 @@
 }
 }
 .footer--redes{
- p {
-	border: solid 2px;
-	border-radius: 20%;
+ a {
 	margin: 0 10px;
 	text-align: left;
+	text-decoration: none;
+	color: black;
+	font-size: 24;
 }
 }
 .footer--autor{
-	border:solid 2px;
-	border-radius: 20%;
 	margin-right: 15px;
 	flex-wrap:wrap;
+	a{
+	margin: 0 10px;
+	text-align: left;
+	text-decoration: none;
+	color: black;
+	font-size: 24;
+	}
 }
-
-
-
-
-
-
-
-/*<div class="row justify-content-evenly tarjeta ">
-				<div class=" col-12 col-md-2 " >
-					<iframe class="alinacion" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d820.769688222509!2d-58.40263467081149!3d-34.62745009877833!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb1c6db16e05%3A0x53f78832a9f5bdd2!2sPav%C3%B3n%202653%2C%20C1248%20AAI%2C%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1608089372975!5m2!1ses!2sar"> direccion </iframe>
-					<p>pavon 2653</p>
-				</div>
-				<div class=" col-12 col-md-2 offset-md-2">			
-					<img class="alinacion" src="../imagenes/horario.jpg" alt="horarios">
-					<p>horario de lunes a viernes <br>
-						de 09:00 a 17:00
-					</p>
-				</div>
-				<div class=" col-12 col-md-2 offset-md-2">
-					<img class="alinacion" src="../imagenes/correo.jpg" alt="correo">
-					<p>Email: broomy@outlook.com <br>
-						tel: 1149415252
-					</p>
-				</div>
-			</div>*/
+}
