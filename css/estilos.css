@@ -27,8 +27,7 @@
   padding: 10px; }
 
 .contenedor-grid footer {
-  grid-area: footer;
-  height: 120px; }
+  grid-area: footer; }
 
 @media screen and (max-width: 768px) {
   .contenedor-grid {
@@ -223,6 +222,7 @@
 
 /* ...................................................................................................... footer*/
 .footer {
+  height: 140px;
   background: #555;
   background-size: cover;
   justify-content: space-between;
@@ -234,21 +234,23 @@
     border: solid 2px;
     margin-left: 15px;
     flex-wrap: wrap; }
-  .footer .footer--redes a {
-    margin: 0 10px;
-    text-align: left;
-    text-decoration: none;
-    color: black;
-    font-size: 24; }
+  .footer .footer--redes {
+    margin: 10px;
+    letter-spacing: 1.5px; }
+    .footer .footer--redes a {
+      margin: 4px;
+      text-align: left;
+      text-decoration: none;
+      color: black;
+      font-size: 20px; }
   .footer .footer--autor {
     margin-right: 15px;
     flex-wrap: wrap; }
     .footer .footer--autor a {
-      margin: 0 10px;
-      text-align: left;
+      margin: 15px;
       text-decoration: none;
-      color: black;
-      font-size: 24; }
+      color: #171515;
+      font-size: 20px; }
 
 /*--------------------------------------------------------------------------------------------------pagina contactos*/
 .ingreso-clientes {
@@ -323,3 +325,25 @@
     width: 100%;
     border-bottom: solid 3px;
     transition: 1s; } }
+
+/*------------------------------------------------------------------------------------------------..facebook*/
+.titulo-h1 {
+  text-align: center; }
+
+.mensaje-alerta {
+  width: 90%;
+  max-width: 800px;
+  margin: 50px auto;
+  position: relative;
+  display: flex;
+  align-items: center; }
+  .mensaje-alerta img {
+    width: 100%; }
+  .mensaje-alerta .caja-texto {
+    font-size: 24px;
+    text-align: center;
+    position: absolute;
+    background-color: #ffffff;
+    opacity: 0.8; }
+    .mensaje-alerta .caja-texto a {
+      text-decoration: none; }
