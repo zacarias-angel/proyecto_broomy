@@ -77,6 +77,10 @@
 .nav_botton_movil {
   padding: 25px; }
 
+.espacios-nosotros {
+  margin: 20px;
+  padding: 15px; }
+
 /*........................................................................................................main*/
 .ani1 img, .main_fila img, .main__fila__3 img {
   border-radius: 5px;
@@ -349,6 +353,3 @@
       text-decoration: none; }
 
 /*------------------------------------------------------------------------------------------------..nosotros*/
-.espacios-nosotros {
-  margin: 20px;
-  padding: 15px; }
