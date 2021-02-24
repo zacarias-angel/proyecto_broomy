@@ -347,3 +347,8 @@
     opacity: 0.8; }
     .mensaje-alerta .caja-texto a {
       text-decoration: none; }
+
+/*------------------------------------------------------------------------------------------------..nosotros*/
+.espacios-nosotros {
+  margin: 20px;
+  padding: 15px; }
