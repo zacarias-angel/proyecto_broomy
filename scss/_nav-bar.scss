@@ -35,3 +35,15 @@
 .navbar-collapse{
 	justify-content:flex-end;
 }
+.nav_a{
+  display: inline-block;
+
+  .color_ico{
+    color:white;
+    margin: 5px;
+    display:inline-block;
+  }
+}
+.nav_botton_movil{
+  padding: 25px;
+}

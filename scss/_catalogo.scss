@@ -4,7 +4,7 @@
 	height: 200px;
 	justify-content:center;
 	margin:auto;
-	padding: 5px;}
+	padding: 5px;
 }
 img:hover{
 	height: 225px;
@@ -21,7 +21,9 @@ img:hover{
 	margin:15px;
 }
 
-	
+
+}	
+
 @media screen and (max-width: 768px){
 .contenido div img:hover{
 	height: 250px;

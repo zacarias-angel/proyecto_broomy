@@ -1,3 +1,4 @@
+
 .ingreso-clientes{
 	text-align: center;
 	font-size: 24px;
@@ -16,8 +17,9 @@
 	padding: 10px;
 
 	.sub-tarjeta{
+		display:flex;
 		width: auto;
-		flex-direction:row;
+		flex-direction: column;
 		padding: 20px 45px;
 		margin:20px 5px;
 		flex-wrap:wrap;
