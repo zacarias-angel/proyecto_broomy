@@ -231,7 +231,7 @@
 /* ...................................................................................................... footer*/
 .footer {
   height: 140px;
-  background: #717fe2;
+  background: linear-gradient(33deg, #0504f1, transparent);
   background-size: cover;
   justify-content: space-between;
   align-items: center; }
